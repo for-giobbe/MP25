@@ -1,0 +1,112 @@
+Settings used
+
+alignment         : ./My_concat.phy
+branchlengths     : linked
+models            : WAG, MTREV, DAYHOFF, VT, BLOSUM62, CPREV, RTREV, MTMAM, WAG+G, MTREV+G, DAYHOFF+G, VT+G, BLOSUM62+G, CPREV+G, RTREV+G, MTMAM+G, GTR+G+F, WAG+I+G, MTREV+I+G, DAYHOFF+I+G, VT+I+G, BLOSUM62+I+G, CPREV+I+G, RTREV+I+G, MTMAM+I+G, GTR+I+G+F
+model_selection   : bic
+search            : rcluster
+weights           : rate = 1, base = 0, model = 0, alpha = 0
+rcluster-percent  : 10.0
+rcluster-max      : 10
+
+
+Best partitioning scheme
+
+Scheme Name       : start_scheme
+Scheme lnL        : -18754.34033203125
+Scheme BIC        : 37682.8718831
+Number of params  : 23
+Number of sites   : 1946
+Number of subsets : 5
+
+Subset | Best Model | # sites    | subset id                        | Partition names                                                                                     
+1      | RTREV+I+G  | 197        | 527ef67a6ea4a1e14b8fbc78b27b7ed3 | p1_OG0000030                                                                                        
+2      | VT+G       | 442        | 47e71527cce42c4bb6324207e2dfa683 | p2_OG0000033                                                                                        
+3      | BLOSUM62+G | 404        | 0a2ac19ada3db321f90706ddd2407011 | p3_OG0000037                                                                                        
+4      | WAG+G      | 260        | aec597be0616a15e2ca13da9b5732b35 | p4_OG0000054                                                                                        
+5      | CPREV+G    | 643        | 283eeb6e4236f52701a961b1db43b3fb | p5_OG0000069                                                                                        
+
+
+Scheme Description in PartitionFinder format
+Scheme_start_scheme = (p1_OG0000030) (p2_OG0000033) (p3_OG0000037) (p4_OG0000054) (p5_OG0000069);
+
+Nexus formatted character sets
+begin sets;
+	charset Subset1 = 1-197;
+	charset Subset2 = 198-639;
+	charset Subset3 = 640-1043;
+	charset Subset4 = 1044-1303;
+	charset Subset5 = 1304-1946;
+	charpartition PartitionFinder = Group1:Subset1, Group2:Subset2, Group3:Subset3, Group4:Subset4, Group5:Subset5;
+end;
+
+
+Nexus formatted character sets for IQtree
+Warning: the models written in the charpartition are just the best model found in this analysis. Not all models are available in IQtree, so you may need to set up specific model lists for your analysis
+
+#nexus
+begin sets;
+	charset Subset1 = 1-197;
+	charset Subset2 = 198-639;
+	charset Subset3 = 640-1043;
+	charset Subset4 = 1044-1303;
+	charset Subset5 = 1304-1946;
+	charpartition PartitionFinder = RTREV+I+G:Subset1, VT+G:Subset2, BLOSUM62+G:Subset3, WAG+G:Subset4, CPREV+G:Subset5;
+end;
+
+
+RaxML-style partition definitions
+Warning: RAxML allows for only a single model of rate heterogeneity in partitioned analyses. I.e. all partitions must be assigned one of three types of model: No heterogeneity (e.g. GTR); +G (e.g. GTR+G); or +I+G (e.g. GTR+I+G). If the best models for your datasetcontain different types of model for different subsets you will need to decide on the best rate heterogeneity model before you run RAxML. If you prefer to do things more rigorously, you can run separate PartitionFinder analyses for each type of rate heterogenetity Then choose the scheme with the lowest AIC/AICc/BIC score. Note that these re-runs will be quick!
+
+RTREV, Subset1 = 1-197
+VT, Subset2 = 198-639
+BLOSUM62, Subset3 = 640-1043
+WAG, Subset4 = 1044-1303
+CPREV, Subset5 = 1304-1946
+
+
+MrBayes block for partition definitions
+Warning: MrBayes only allows a relatively small collection of models. If any model in your analysis is not one that is included in MrBayes (e.g. by setting nst = 1, 2, or 6 for DNA sequences; or is not in the available list of protein models for MrBayes)then this MrBayes block will just set that model to nst = 6 for DNA, or 'wag' for Protein. Similarly, the only additional parameters that this MrBayes block will include are +I and +G. Other  parameters, such as +F and +X, are ignored. If you want to use this MrBayes block for your analysis, please make sure to check it carefully before you use it we've done our best to make it accurate, but there may be errors that remain!
+
+begin mrbayes;
+
+	charset Subset1 = 1-197;
+	charset Subset2 = 198-639;
+	charset Subset3 = 640-1043;
+	charset Subset4 = 1044-1303;
+	charset Subset5 = 1304-1946;
+
+	partition PartitionFinder = 5:Subset1, Subset2, Subset3, Subset4, Subset5;
+	set partition=PartitionFinder;
+
+	lset applyto=(1) rates=invgamma;
+	prset applyto=(1) aamodelpr=fixed(rtrev);
+	lset applyto=(2) rates=gamma;
+	prset applyto=(2) aamodelpr=fixed(vt);
+	lset applyto=(3) rates=gamma;
+	prset applyto=(3) aamodelpr=fixed(wag);
+	lset applyto=(4) rates=gamma;
+	prset applyto=(4) aamodelpr=fixed(wag);
+	lset applyto=(5) rates=gamma;
+	prset applyto=(5) aamodelpr=fixed(cprev);
+
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+
+end;
+
+
+
+*Citations for this analysis*
+-----------------------------
+If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+
+For the version of PartitionFinder you used, please cite:
+Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+
+For the rcluster algorithm you used, please cite:
+Lanfear, R., Calcott, B., Kainer, D., Mayer, C., & Stamatakis, A. (2014). Selecting optimal partitioning schemes for phylogenomic datasets. BMC evolutionary biology, 14(1), 82.
+
+Your analysis also used RAxML, so please cite:
+Stamatakis, A. (2014). RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics, 30(9), 1312-1313.
+
