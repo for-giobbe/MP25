@@ -4,7 +4,7 @@ Curated by *Giobbe Forni* with the contribution of the mighty *Jacopo Martelossi
 
 ### course syllabus:
 
-- 00 intro to the course + software installation checks ([slides](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md))
+- 00 intro to the course + software installation instructions ([slides](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md))
 - 01 phylogenetics 101 ([slides]() + [practicals]())
 - 02 phylogenetics 101 ([slides]() + [practicals]())
 - 03 orthology infererence and taxon sampling ([slides]() + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md))
