@@ -1,6 +1,11 @@
 ## MP_bioinfo_2025
 
+
 Curated by *Giobbe Forni* with the contribution of the mighty *Jacopo Martelossi*.
+
+
+![pic](https://github.com/for-giobbe/MP25/blob/main/cover.001.jpeg)
+
 
 ### course syllabus:
 
