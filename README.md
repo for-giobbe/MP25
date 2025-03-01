@@ -10,12 +10,12 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 ## course syllabus:
 
 
-- **W1_00** -  intro to the course + software installation instructions [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) ]
-- **W1_01** - phylogenetics 101 pt. A [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) ]
-- **W1_02** - phylogenetics 101 pt. B [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) ]
-- **W2_03** - orthology infererence and taxon sampling [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/03.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/03.md) ]
-- **W2_04** - sequence alignement and filtering [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/04.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/04.md) ]
-- **W2_05** - distance-based versus charcter-based algorythms [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/05.md) ]
+- **W1_00** -  intro to the course + software installation instructions [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) ]
+- **W1_01** - phylogenetics 101 pt. A [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) ]
+- **W1_02** - phylogenetics 101 pt. B [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) ]
+- **W2_03** - orthology infererence and taxon sampling [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/03.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/03.md) ]
+- **W2_04** - sequence alignement and filtering [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/04.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/04.md) ]
+- **W2_05** - distance-based versus charcter-based algorythms [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/05.md) ]
 - **W3_06** - MK models of molecular evolution
 - **W3_07** - Maximum Likelihood (ML)
 - **W3_08** - Bayesian Inference (BI)
@@ -29,8 +29,8 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W6_16** - modelling trait evolution on phylogenies: continuous traits
 - **W6_17** - modelling trait evolution on phylogenies: discrete traits
 - **W6_18** - inferring selection
-- **W7_19** - implementation of phylogenetics in bioinformatics pipeline
-- **W7_20** - case studies + final remarks
+- **W7_19** - mini journal club pt. A
+- **W7_20** - mini journal club pt. B [ [YOUR PRESENTATIONS]() ]
 
 
 For any inquiry write to: giobbe.forni2@unibo.it
