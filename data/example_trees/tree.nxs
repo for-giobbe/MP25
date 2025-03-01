@@ -1,0 +1,22 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS Taxon1 Taxon2 Taxon3 Taxon4 Taxon5 Taxon6 Taxon7 Taxon8 Taxon9;
+END;
+
+BEGIN TREES;
+    [A rooted tree with branch lengths proportional to substitutions per site]
+    TRANSLATE
+        1 Taxon1,
+        2 Taxon2,
+        3 Taxon3,
+        4 Taxon4,
+        5 Taxon5,
+        6 Taxon6,
+        7 Taxon7,
+        8 Taxon8,
+        9 Taxon9;
+    TREE rooted_tree = [&R] (((1:0.05,2:0.06):0.07,(3:0.04,4:0.05):0.06):0.08,((5:0.05,6:0.06):0.07,
+((7:0.04,8:0.05):0.06,9:0.07):0.08):0.09);
+END;
