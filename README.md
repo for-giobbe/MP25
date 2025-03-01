@@ -29,7 +29,7 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W6_16** - modelling trait evolution on phylogenies: continuous traits
 - **W6_17** - modelling trait evolution on phylogenies: discrete traits
 - **W6_18** - inferring selection
-- **W7_19** - mini journal club pt. A
+- **W7_19** - mini journal club pt. A [ [YOUR PRESENTATIONS]() ]
 - **W7_20** - mini journal club pt. B [ [YOUR PRESENTATIONS]() ]
 
 
