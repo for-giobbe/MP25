@@ -33,4 +33,4 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W7_20** - case studies + final remarks
 
 
-For any inquiry writ to: giobbe.forni2@unibo.it
+For any inquiry write to: giobbe.forni2@unibo.it
