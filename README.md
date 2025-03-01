@@ -9,24 +9,28 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 
 ## course syllabus:
 
-- **00W1** -  intro to the course + software installation instructions [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) ]
-- **01W1** - phylogenetics 101 pt. A [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) ]
-- **02W1** - phylogenetics 101 pt. B [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) ]
-- **03W2** - orthology infererence and taxon sampling [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/03.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/03.md) ]
-- **04W2** - sequence alignement and filtering [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/04.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/04.md) ]
-- **05W2** - distance-based versus charcter-based algorythms [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/05.md) ]
-- 06-W3 MK models of molecular evolution
-- 07-W3 Maximum Likelihood (ML)
-- 08-W3 Bayesian Inference (BI)
-- 09-W3 statistycal support in phylogenetics
-- 10-W4 mixture models
-- 11-W4 assessing phylogenetic assumptions
-- 12-W4 concatenation-based versus coalescence-based inferences
-- 13-W5 gene tree correction and reconciliation on the species tree
-- 14-W5 stochastic and systematic bias
-- 15-W5 divergence times analyses
-- 16-W6 modelling trait evolution on phylogenies: continuous traits
-- 17-W6 modelling trait evolution on phylogenies: discrete traits
-- 18-W6 inferring selection
-- 19-W7 implementation of phylogenetics in bioinformatics pipeline
-- 20-W7 case studies + final remarks
+
+- **W100** -  intro to the course + software installation instructions [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) ]
+- **W101** - phylogenetics 101 pt. A [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) ]
+- **W102** - phylogenetics 101 pt. B [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) ]
+- **W203** - orthology infererence and taxon sampling [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/03.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/03.md) ]
+- **W204** - sequence alignement and filtering [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/04.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/04.md) ]
+- **W205** - distance-based versus charcter-based algorythms [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/05.md) ]
+- **W306** - MK models of molecular evolution
+- **W307** - Maximum Likelihood (ML)
+- **W308** - Bayesian Inference (BI)
+- **W309** - statistycal support in phylogenetics
+- **W410** - mixture models
+- **W411** - assessing phylogenetic assumptions
+- **W412** - concatenation-based versus coalescence-based inferences
+- **W513** - gene tree correction and reconciliation on the species tree
+- **W514** - stochastic and systematic bias
+- **W515** - divergence times analyses
+- **W616** - modelling trait evolution on phylogenies: continuous traits
+- **W617** - modelling trait evolution on phylogenies: discrete traits
+- **W618** - inferring selection
+- **W719** - implementation of phylogenetics in bioinformatics pipeline
+- **W720** - case studies + final remarks
+
+
+> If you need anything just write!
