@@ -1,8 +1,0 @@
-0: A_granulata_2.pep
-1: B_glabrata_2.pep
-2: C_virginica_2.pep
-3: H_robusta_2.pep
-4: L_gigantea_2.pep
-5: O_bimaculoides_2.pep
-6: P_fucata_2.pep
-7: S_constricta_2.pep

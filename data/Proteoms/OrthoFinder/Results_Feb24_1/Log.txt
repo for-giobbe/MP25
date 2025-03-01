@@ -1,4 +1,0 @@
-2025-02-24 18:27:08 : Started OrthoFinder version 3.0.1b1
-Command Line: /Users/Giobbe/miniconda3/envs/orthofinder_env/bin/orthofinder -f Proteoms/
-
-WorkingDirectory_Base: /Users/Giobbe/Desktop/Mol_Phy_2025/Data/Proteoms/OrthoFinder/Results_Feb24_1/WorkingDirectory/
