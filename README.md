@@ -1,7 +1,7 @@
 ## MP25 - Molecular Phylogenetics 2025
 
 
-Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinformatics at the University of Bologna. Curated by *Giobbe Forni* with the contribution of the mighty *Jacopo Martelossi*.
+Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinformatics at the University of Bologna. Curated by *Giobbe Forni* with the contribution of the mighty *Jacopo Martelossi* and *Andrea Luchetti*.
 
 
 ![pic](https://github.com/for-giobbe/MP25/blob/main/cover.001.jpeg)
