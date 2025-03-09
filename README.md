@@ -10,6 +10,13 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 ## course syllabus:
 
 
+| week | lesson | title | slides | practicals |
+| ---- | ------ | ----  | -----  | ---------  | 
+| 01   | 01     | intro to the course + software installation instructions | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) |
+| 01   | 02     | phylogenetics 101 pt. A | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) |
+| 01   | 03     | phylogenetics 101 pt. A | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) |
+
+
 - **W1_00** -  intro to the course + software installation instructions [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) ]
 - **W1_01** - phylogenetics 101 pt. A [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) ]
 - **W1_02** - phylogenetics 101 pt. B [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) ]
