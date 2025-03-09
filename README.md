@@ -7,15 +7,17 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 ![pic](https://github.com/for-giobbe/MP25/blob/main/cover.001.jpeg)
 
 
-## course syllabus:
+### course syllabus:
 
 
 | week | lesson | title | slides | practicals |
 | ---- | ------ | ----  | -----  | ---------  | 
-| 01   | 01     | intro to the course + software installation instructions | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) |
-| 01   | 02     | phylogenetics 101 pt. A | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) |
-| 01   | 03     | phylogenetics 101 pt. A | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) |
-
+| W1   | 01     | intro to the course + software installation | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) |
+| W1   | 02     | phylogenetics 101 pt. A | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) |
+| W1   | 03     | phylogenetics 101 pt. A | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) |
+| W2   | 04     | experimental design and orthology infererence | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/03.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/03.md) |
+| W2   | 05     | sequence alignement and filtering | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/04.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/04.md) |
+| W2   | 06     | distance-based versus charcter-based algorythms | [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) | [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/05.md) |
 
 - **W1_00** -  intro to the course + software installation instructions [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/00.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/00.md) ]
 - **W1_01** - phylogenetics 101 pt. A [ [SLIDES](https://github.com/for-giobbe/MP25/blob/main/slides/01.pdf) + [PRACTICALS](https://github.com/for-giobbe/MP25/blob/main/practicals/01.md) ]
