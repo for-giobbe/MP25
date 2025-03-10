@@ -22,9 +22,9 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W3_09** - half course recap
 - **W4_10** - statistycal support in phylogenetics [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/10.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/10.md) ]
 - **W4_11** - mixture (and complex) models [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/11.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/11.md) ]
-- **W4_12** - phylogenetic subsampling + hypothesis testing [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/12.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/12.md) ]
+- **W4_12** - hipothesis testing [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/12.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/12.md) ]
 - **W5_13** - concatenation-based versus coalescence-based inferences
-- **W5_14** - stochastic and systematic bias
+- **W5_14** - stochastic and systematic bias + phylogenetic subsampling
 - **W5_15** - divergence times analyses
 - **W6_16** - modelling trait evolution on phylogenies: continuous traits
 - **W6_17** - modelling trait evolution on phylogenies: discrete traits
