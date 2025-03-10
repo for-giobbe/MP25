@@ -16,14 +16,14 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W2_03** - orthology infererence and taxon sampling [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/03.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/03.md) ]
 - **W2_04** - sequence alignement and filtering [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/04.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/04.md) ]
 - **W2_05** - distance-based versus charcter-based algorythms [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/05.md) ]
-- **W3_06** - MK models of molecular evolution
-- **W3_07** - Maximum Likelihood (ML)
-- **W3_08** - Bayesian Inference (BI)
-- **W3_09** - statistycal support in phylogenetics
-- **W4_10** - mixture models
-- **W4_11** - assessing phylogenetic assumptions
-- **W4_12** - concatenation-based versus coalescence-based inferences
-- **W5_13** - gene tree correction and reconciliation on the species tree
+- **W3_06** - MK models of molecular evolution [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/06.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/06.md) ]
+- **W3_07** - Maximum Likelihood (ML) [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/07.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/07.md) ]
+- **W3_08** - Bayesian Inference (BI)[ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/08.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/08.md) ]
+- **W3_09** - half course recap
+- **W4_10** - statistycal support in phylogenetics [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/10.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/10.md) ]
+- **W4_11** - mixture (and complex) models [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/11.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/11.md) ]
+- **W4_12** - phylogenetic subsampling + hypothesis testing [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/12.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/12.md) ]
+- **W5_13** - concatenation-based versus coalescence-based inferences
 - **W5_14** - stochastic and systematic bias
 - **W5_15** - divergence times analyses
 - **W6_16** - modelling trait evolution on phylogenies: continuous traits
