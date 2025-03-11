@@ -15,7 +15,7 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W1_02** - phylogenetics 101 pt. B [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/02.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/02.md) ]
 - **W2_03** - orthology infererence and taxon sampling [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/03.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/03.md) ]
 - **W2_04** - sequence alignement and filtering [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/04.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/04.md) ]
-- **W2_05** - distance-based versus charcter-based algorythms [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/05.md) ]
+- **W2_05** - distance-based versus charcter-based algorythms [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/05.pdf) ]
 - **W3_06** - MK models of molecular evolution [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/06.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/06.md) ]
 - **W3_07** - Maximum Likelihood (ML) [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/07.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/07.md) ]
 - **W3_08** - Bayesian Inference (BI)[ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/08.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/08.md) ]
