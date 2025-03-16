@@ -19,8 +19,8 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W3_06** - MK models of molecular evolution [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/06.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/06.md) ]
 - **W3_07** - Maximum Likelihood (ML) [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/07.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/07.md) ]
 - **W3_08** - Bayesian Inference (BI)[ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/08.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/08.md) ]
-- **W3_09** - half course recap
-- **W4_10** - statistycal support in phylogenetics [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/10.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/10.md) ]
+- **W3_09** - half course recap  [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/09.md) ]
+- **W4_10** - statistical support in phylogenetics [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/10.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/10.md) ]
 - **W4_11** - mixture (and complex) models [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/11.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/11.md) ]
 - **W4_12** - hipothesis testing [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/12.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/12.md) ]
 - **W5_13** - concatenation-based versus coalescence-based inferences
