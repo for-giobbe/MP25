@@ -35,7 +35,7 @@ Ctrl+r # recursively search the history of commands
 
 ---
 
-### special characters
+### special characters :-P
 
 ```bash
 ~ # home directory
@@ -58,7 +58,7 @@ Regular Expressions (__ReExp__): a sequence of characters that specifies a patte
 
 ---
 
-### grep
+### grep!
 
 ```bash
 grep "word" file # print all rows that contains "word"
@@ -75,7 +75,7 @@ greo -E "(Locus101|Locus102)" file # print Locus101 and Locus102
 
 ---
 
-### sed
+### sed!
 
 ```bash
 sed 's/Locus/Transcript/' file # for each line subtitute "Locus" with "Transcripts" at first occurrance
@@ -86,7 +86,7 @@ sed '/Locus/d' file # delete any row containing "Locus"
 
 ---
 
-### awk
+### awk!
 
 ```bash
 awk '{print $1}' file # print first column
@@ -102,7 +102,7 @@ awk '{if ($1~">") print $0; else print length}' "fasta_file #print length instea
 
 ---
 
-### comparisons
+### comparisons ... 
 
 ```bash
 
@@ -110,7 +110,7 @@ awk '{if ($1~">") print $0; else print length}' "fasta_file #print length instea
 
 ---
 
-### edit files and folders
+### edit files and folders ...
 
 ```bash
 touch file_name #create new empty file
@@ -135,7 +135,7 @@ rm –r foldername # remove folder
 
 ---
 
-### concatenate commands and programs
+### concatenate commands and programs <3
 
 - pipe |
 
@@ -163,7 +163,7 @@ program1 input.txt > intermediate-results.txt && program2 intermediate-results.t
 
 ---
 
-### variables
+### variables <3
 
 A variable in bash can be anything, a number, a character, a string of characters, a file, a folder. Variables are in bash are indicated with $
 
@@ -176,7 +176,7 @@ echo '$var1' #print var1
 
 ---
 
-### for loop
+### for loop <3
 
 ```bash
 for i in *.fasta; do echo $i; done
@@ -190,7 +190,7 @@ for i in */ ; do cd $i; cp *.fasta ../; cd ..; done
 
 ---
 
-### standard output and standard error
+### standard output and standard error :-O
 
 Many programs use a "standard output" for outputting data, we usually redirected the standard output in an output file using ">". A separate file, called "standard error" is needed for errors, warnings, and messages. We can redirect the standard error with "2>"
 
@@ -206,7 +206,7 @@ program1 file 2> program1.stderr > results.txt
 
 ---
 
-### merge and sort files
+### merge and sort files ...
 
 ```bash
 cat file1 file2 file3 … #merge multiple files in 1  
@@ -224,7 +224,7 @@ paste file1 file2 #merge lines of files
 
 ---
 
-### compare two sorted files
+### compare sorted files ...
 
 ```bash
 diff -y file1 file2 #Compare FILES line by line and show side by side
@@ -237,7 +237,7 @@ comm -3 file1 file2 #print lines in file1 not in file2, and vice versa
 
 ---
 
-### download and transfer data
+### download and transfer data!
 
 `wget` can handle HTTP and FTP links
 
@@ -255,7 +255,7 @@ curl –O link
 
 ---
 
-### compress and decompress data
+### compress and decompress data ...
 
 ```bash
 gzip file # compress file file.gz
@@ -279,7 +279,7 @@ tar xvfz ./nome_archivio.tgz #decompress archive
 
 ---
 
-### conda
+### conda <3
 
 ```bash
 conda init bash # initialize conda
@@ -292,7 +292,7 @@ conda deactivate # close environment
 
 ---
 
-## Git and GitHub
+## Git and GitHub <3
 
 ```bash
 git add <file> # add file to the stagin area
