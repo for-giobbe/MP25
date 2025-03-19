@@ -95,9 +95,8 @@ awk '{print $NF}' file # print last column
 awk '{print $4"\t"$1}' file # change orders of column and use tab as field separator in the output
 awk -F";" '{print $3,$4}' file # fiels separator is ";"
 awk '$1==$2 {print}' file # if first column = second column, print all columns
-awk '$1 ~ /chr2|chr3/ { print $0 "\t" $3 - $2 }' file # if first column contain "chr2" or "chr3", print all columns, and a column with the difference between $3 and $2
-awk '$1 ~ /chr1/ && $3 - $2 > 10 '{print}' file #if both the first column  contain "chr1" AND $3-$2>0 , print all columns
-awk '{if ($1~">") print $0; else print length}' "fasta_file #print length instead of sequence in fasta file
+awk '$1 ~ /chr1/ && $3 - $2 > 10 {print}' file # if both the first column  contain "chr1" AND $3-$2>0 , print all columns
+awk '{if ($1~">") print $0; else print length}' fasta_file # print length instead of sequence in fasta file
 ```
 
 ---
@@ -105,7 +104,15 @@ awk '{if ($1~">") print $0; else print length}' "fasta_file #print length instea
 ### comparisons ... 
 
 ```bash
-
+a==b # a equal to b
+a!=b # a different from b
+a>=b # a greater or equal than b
+a>b # a greater or equal than b
+a<=b # a less or equal than b
+a<b # a less than b
+a || b # logical AND
+a && b # logical OR
+!a # not a
 ```
 
 ---
@@ -181,6 +188,20 @@ for i in *fasta; do sed ‘s/>Locus/>/’ > $i”_editname” ; done
 for i in *fasta; do grep –c”>” $i ; done > counts
 for i in *fasta; do program1 $i > “output_”$i; done
 for i in */ ; do cd $i; cp *.fasta ../; cd ..; done
+```
+
+---
+
+### if statement <3
+
+```bash
+if [ -f "file.fasta" ]; then echo "file.fasta exists"; fi
+if [ -d "directory" ]; then echo "directory exists"; fi
+if [ -s "file.fasta" ]; then echo "file.fasta is not empty"; fi
+if [ ! -f "file.fasta" ]; then echo "file.fasta does not exist"; fi
+if [ "$(wc -l < file.fasta)" -gt 10 ]; then echo "file.fasta has more than 10 lines"; fi
+if grep -q ">Locus" file.fasta; then echo "Locus found"; fi
+if command -v program1 >/dev/null; then echo "program1 is installed"; fi
 ```
 
 ---
@@ -269,7 +290,7 @@ tar xvfz ./nome_archivio.tgz #decompress archive
 
 ---
 
-### some tips on the terminsal!
+### some tips on the terminal!
 
 > tip: be **VERY careful with `rm`**, once you removed something there is no way to undo it; remember bash is case sensitive, the file, folder or scritp "Data" is different from "data".
 
