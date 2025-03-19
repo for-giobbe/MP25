@@ -62,7 +62,8 @@ Ctrl+r # recursively search the history of commands
 
 `wget` can handle HTTP and FTP links
 
-```wget https://github.com/jacopoM28/CompOmics_2022/archive/refs/heads/main.zip
+```
+wget https://github.com/jacopoM28/CompOmics_2022/archive/refs/heads/main.zip
 ```
 
 For public data we don’t need any authentication to gain access to this file, otherwise use flags *--user=*  and *--ask-password*
