@@ -1,9 +1,9 @@
 
-To cut the long story short, if can remember and use all comands listed subsequently, you can say you are a shell profesional!
+To cut the long story short, if can remember and use all comands listed subsequently, you can say you are a shell professional!
 
 ---
 
-### move around
+### move around!
 
 ```bash
 whoami # username
@@ -20,9 +20,9 @@ ls *.fasta #list all fasta files
 
 ---
 
-### write fast
+### write fast!
 
-```bash
+```
 Ctrl+d # close session
 Ctrl+l # clean the command line
 Ctrl+c # kills a process
@@ -37,24 +37,24 @@ Ctrl+r # recursively search the history of commands
 
 ### special characters
 
-* ~ home directory
-* . current directory
-* .. up one folder
-* / path directory separator
-* space
-* \* any character
-* ; shell Command Separator
-* \> redirect output to new file
-* \t tab
-* \n end of line in bash
-* \r end of line in mac
-* \n\r end of line in windows
-* many others (& | < ? []{} etc..)
+```bash
+~ # home directory
+. # current directory
+.. # up one folder
+/ # path directory separator
+* # any character
+; # shell commands separator
+\> # redirect output to new file
+\t # tab
+\n # end of line in bash
+\r # end of line in mac
+\n\r # end of line in windows
+\^ # starting with ; grep "^>" file #print lines starting with ">"
+\$ # ending with ; grep ">\$" file #print lines ending with ">"
+# many others (& | < ? []{} etc..)
+```
 
-* \^ starting with ; grep "^>" file #print lines starting with ">"
-* \$ ending with ; grep ">\$" file #print lines ending with ">"
-* regular expressions: a sequence of characters that specifies a pattern. [Study them!](https://en.wikipedia.org/wiki/Regular_expression)
-
+Regular Expressions (__ReExp__): a sequence of characters that specifies a pattern. [Study them!](https://en.wikipedia.org/wiki/Regular_expression)
 
 ---
 
@@ -100,37 +100,38 @@ awk '$1 ~ /chr1/ && $3 - $2 > 10 '{print}' file #if both the first column  conta
 awk '{if ($1~">") print $0; else print length}' "fasta_file #print length instead of sequence in fasta file
 ```
 
-![awk](https://raw.githubusercontent.com/MariangelaIannello/didattica/main/images/awk.png)
+---
+
+### comparisons
+
+```bash
+
+```
 
 ---
 
 ### edit files and folders
 
-`touch file_name` #create new empty file
-
-> **avoid special characters**; once created new file press “i" to write, after editing press Ctrl+c or esc and type `:wq` to save and exit from file or ':q!' to exit without saving
-
 ```bash
-cp filename pathwheretocopy #copy file somewhere using absolute or relative path of where to copy
-mv filename pathwheretocopy #mv file somewhere using absolute or relative path of where to copy
-mv filename new_filename #rename file
-less filename #see file
-cat filename #similar to less
-head filename #see first 10 rows of the file
-tail filename #see last 10 rows of the file
+touch file_name #create new empty file
+cp filename pathwheretocopy # copy file somewhere using absolute or relative path of where to copy
+mv filename pathwheretocopy # moves file somewhere using absolute or relative path of where to copy
+mv filename new_filename # rename file
+less filename # see file
+cat filename # similar to less
+head filename # see first 10 rows of the file
+tail filename # see last 10 rows of the file
 head –n5 filename #(or tail –n 5) see only first 5 (or last) 5 rows
-wc filename #outputs the number of words, lines, and characters
-wc –l filename #outputs the number of lines
-rm file #remove file
-rm * #remove every file in that directory
+wc filename # outputs the number of words, lines, and characters
+wc –l filename # outputs the number of lines
+rm file # remove file
+rm * # remove every file in that directory
 mkdir newfoldername# make new directory
-mkdir -p zmays-snps/{data/seqs,scripts,analysis} #create directory and subdirectories with one command
-cp –r foldername #copy folder
-mv foldername pathwheretomove #move folder
-rm –r foldername #remove folder
+mkdir -p zmays-snps/{data/seqs,scripts,analysis} # create directory and subdirectories with one command
+cp –r foldername # copy folder
+mv foldername pathwheretomove # move folder
+rm –r foldername # remove folder
 ```
-
-> tip: be **VERY careful with `rm`**, once you removed something there is no way to undo it; remember bash is case sensitive, the file, folder or scritp "Data" is different from "data".
 
 ---
 
@@ -196,6 +197,12 @@ Many programs use a "standard output" for outputting data, we usually redirected
 ```bash
 program1 file 2> program1.stderr > results.txt
 ```
+
+---
+
+> tip: be **VERY careful with `rm`**, once you removed something there is no way to undo it; remember bash is case sensitive, the file, folder or scritp "Data" is different from "data".
+
+> tip: **avoid special characters**; once created new file press “i" to write, after editing press Ctrl+c or esc and type `:wq` to save and exit from file or ':q!' to exit without saving.
 
 ---
 
@@ -279,6 +286,7 @@ conda init bash # initialize conda
 conda env list # see list of environments
 conda activate "environment_name" # activate environment_name
 conda list # see packages installed in that environment_name
+conda install -c channel program_name # install a package
 conda deactivate # close environment 
 ```
 
@@ -287,12 +295,16 @@ conda deactivate # close environment
 ## Git and GitHub
 
 ```bash
-git add <file> #add file to the stagin area
-git commit -m "commit message" #creates a new a commit 
-git push #push any new commit
-git pull #pull any changes from online repositories
-git rm <file> #remove any file automatically adding this change to the staging area
-git mv <file> #mv any file automatically adding this change to the staging area
-git status #display the current state of the git repository
-git rm --cached <FILENAME> #remove a file from those that are synchronised
+git add <file> # add file to the stagin area
+git commit -m "commit message" # creates a new a commit 
+git push # push any new commit
+git pull # pull any changes from online repositories
+git mv <file> # mv any file automatically adding this change to the staging area
+git rm <file> # remove any file from the disk and from the staging area
+git rm --cached <FILENAME> # remove a file from those that are synchronised
+git status # display the current state of the git repository
 ```
+
+---
+
+#### [main](https://github.com/for-giobbe/MP25)
