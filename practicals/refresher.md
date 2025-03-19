@@ -137,25 +137,19 @@ rm –r foldername # remove folder
 
 ### concatenate commands and programs <3
 
-- pipe |
-
-`|` connects the standard output of one process to the standard input of another
+- the pipe ```|``` connects the standard output of one process to the standard input of another.
 
 ```bash
-grep "word" file1 | sed 's/ /\t/g' | program1 > file2 #sed use as input the output of grep; when using pipe the "original" input has to be specified only in the first command
+grep "word" file1 | sed 's/ /\t/g' | program1 > file2
 ```
 
-- semicolon ';'
-
-`;` concatenate different commands or programs sequentially
+- the semicolon ```;``` concatenate different commands or programs sequentially.
 
 ```bash
 grep ">" file1.fasta >output1 ; grep "_" file2.fasta output2
 ```
 
-- &&
-
-Concatenate two programs so that program2 run only if program1 completed successfully
+- the ```&&``` concatenates two programs so that the second one run only if program1 completed successfully.
 
 ```bash
 program1 input.txt > intermediate-results.txt && program2 intermediate-results.txt > results.txt
@@ -168,10 +162,11 @@ program1 input.txt > intermediate-results.txt && program2 intermediate-results.t
 A variable in bash can be anything, a number, a character, a string of characters, a file, a folder. Variables are in bash are indicated with $
 
 ```bash
-var1="ciao"
-echo $var1 #print ciao
-echo "$var1" #print ciao
-echo '$var1' #print var1
+var="ciao"
+echo $var # prints ciao
+echo "$var" # prints ciao
+echo '$var' # prints ciao
+echo var # prints var
 ```
 
 ---
@@ -197,12 +192,6 @@ Many programs use a "standard output" for outputting data, we usually redirected
 ```bash
 program1 file 2> program1.stderr > results.txt
 ```
-
----
-
-> tip: be **VERY careful with `rm`**, once you removed something there is no way to undo it; remember bash is case sensitive, the file, folder or scritp "Data" is different from "data".
-
-> tip: **avoid special characters**; once created new file press “i" to write, after editing press Ctrl+c or esc and type `:wq` to save and exit from file or ':q!' to exit without saving.
 
 ---
 
@@ -276,6 +265,15 @@ In **tar.gz** compression: create an archieve and extra step that compresses the
 tar -zcvf myfolder.tar.gz myfolder # c create archive; z gzip archive; f specify new output; v verbose
 tar xvfz ./nome_archivio.tgz #decompress archive
 ```
+
+
+---
+
+### some tips on the terminsal!
+
+> tip: be **VERY careful with `rm`**, once you removed something there is no way to undo it; remember bash is case sensitive, the file, folder or scritp "Data" is different from "data".
+
+> tip: **avoid special characters**; once created new file press “i" to write, after editing press Ctrl+c or esc and type `:wq` to save and exit from file or ':q!' to exit without saving.
 
 ---
 
