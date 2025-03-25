@@ -20,8 +20,8 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W3_07** - Maximum Likelihood (ML) [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/07.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/07.md) ]
 - **W3_08** - Bayesian Inference (BI)[ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/08.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/08.md) ]
 - **W3_09** - half course recap [ [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/09.md) ]
-- **W4_10** - statistical support in phylogenetics [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/10.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/10.md) ]
-- **W4_11** - mixture (and complex) models [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/11.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/11.md) ]
+- **W4_10** - support metrics [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/10.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/10.md) ]
+- **W4_11** - complex substitution models [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/11.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/11.md) ]
 - **W4_12** - hipothesis testing [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/12.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/12.md) ]
 - **W5_13** - concatenation-based versus coalescence-based inferences
 - **W5_14** - stochastic and systematic bias + phylogenetic subsampling
@@ -29,8 +29,8 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W6_16** - modelling trait evolution on phylogenies: continuous traits
 - **W6_17** - modelling trait evolution on phylogenies: discrete traits
 - **W6_18** - inferring selection
-- **W7_19** - mini journal club pt. A [ [YOUR PRESENTATIONS]() ]
-- **W7_20** - mini journal club pt. B [ [YOUR PRESENTATIONS]() ]
+- **W7_19** - milestone project pt. A [ [project]() ]
+- **W7_20** - milestone project pt. B [ [project]() ]
 
 
 For any inquiry write to: giobbe.forni2@unibo.it
