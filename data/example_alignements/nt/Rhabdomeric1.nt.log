@@ -1,0 +1,104 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb 12 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Mac.home-life.hub (SSE4.2, 16 GB RAM)
+Command: iqtree -s data/example_alignements/nt/Rhabdomeric1.nt.aln -m GTR --prefix data/example_alignements/nt/Rhabdomeric1.nt --redo
+Seed:    508034 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar 26 09:14:56 2025
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file data/example_alignements/nt/Rhabdomeric1.nt.aln ... Fasta format detected
+Reading fasta file: done in 0.000969887 secs using 80.94% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 8 sequences with 1404 columns, 263 distinct patterns
+189 parsimony-informative, 304 singleton sites, 910 constant sites
+                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.10623e-06 secs using 74.02% CPU
+   1  Ovulgaris         2.78%    passed     97.43%
+   2  Emoschata         2.78%    passed     94.49%
+   3  Cmacropus         2.35%    passed     99.11%
+   4  Ecirrhosa         2.56%    passed     99.24%
+   5  Ptetracitrrhus    2.78%    passed     82.26%
+   6  Sunicirrhus       7.05%    passed     95.95%
+   7  Aargo             2.35%    passed     91.85%
+   8  Sofficinalis      0.85%    passed     51.67%
+****  TOTAL             2.94%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -5276.187
+2. Current log-likelihood: -5182.657
+3. Current log-likelihood: -5182.408
+Optimal log-likelihood: -5182.405
+Rate parameters:  A-C: 2.03338  A-G: 3.45984  A-T: 1.72455  C-G: 1.68529  C-T: 4.77518  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.265  G: 0.208  T: 0.265
+Parameters optimization took 3 rounds (0.005 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000378132 secs using 25.65% CPU
+Computing ML distances took 0.000411 sec (of wall-clock time) 0.000120 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 1.09673e-05 secs using 91.18% CPU
+Computing RapidNJ tree took 0.000043 sec (of wall-clock time) 0.000049 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5182.405
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.014 second
+Computing log-likelihood of 49 initial trees ... 0.007 seconds
+Current best score: -5182.405
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5182.404
+Iteration 10 / LogL: -5183.512 / Time: 0h:0m:0s
+Iteration 20 / LogL: -5182.443 / Time: 0h:0m:0s
+Finish initializing candidate tree set (2)
+Current best tree score: -5182.404 / CPU time: 0.042
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5182.498 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -5183.485 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -5183.715 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -5182.416 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -5182.404
+Iteration 70 / LogL: -5182.421 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -5182.485 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -5182.404 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 100 / LogL: -5182.475 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -5182.404
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5182.404
+Optimal log-likelihood: -5182.404
+Rate parameters:  A-C: 2.02634  A-G: 3.46146  A-T: 1.73097  C-G: 1.68496  C-T: 4.77584  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.265  G: 0.208  T: 0.265
+Parameters optimization took 1 rounds (0.000 sec)
+BEST SCORE FOUND : -5182.404
+Total tree length: 0.607
+
+Total number of iterations: 102
+CPU time used for tree search: 0.278 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.142 sec (0h:0m:0s)
+Total CPU time used: 0.290 sec (0h:0m:0s)
+Total wall-clock time used: 0.160 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                data/example_alignements/nt/Rhabdomeric1.nt.iqtree
+  Maximum-likelihood tree:       data/example_alignements/nt/Rhabdomeric1.nt.treefile
+  Likelihood distances:          data/example_alignements/nt/Rhabdomeric1.nt.mldist
+  Screen log file:               data/example_alignements/nt/Rhabdomeric1.nt.log
+
+Date and Time: Wed Mar 26 09:14:56 2025
