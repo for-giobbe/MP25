@@ -23,14 +23,13 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W4_10** - support metrics [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/10.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/10.md) ]
 - **W4_11** - complex substitution models [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/11.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/11.md) ]
 - **W4_12** - hypothesis testing [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/12.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/12.md) ]
-- **W5_13** - coalescence-based inferences [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/13.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/13.md) ]
+- **W5_13** - discordance, ILS & the coalescent [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/13.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/13.md) ]
 - **W5_14** - stochastic and systematic bias + phylogenetic subsampling [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/14.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/14.md) ]
 - **W5_15** - divergence times analyses [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/15.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/15.md) ]
 - **W6_16** - modelling trait evolution on phylogenies: continuous traits [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/16.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/16.md) ]
 - **W6_17** - modelling trait evolution on phylogenies: discrete traits [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/17.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/17.md) ]
-- **W6_18** - inferring selection modelling trait evolution on phylogenies: discrete traits [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/18.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/18.md) ]
-- **W7_19** - milestone project pt. A [ [project]() ]
-- **W7_20** - milestone project pt. B [ [project]() ]
-
+- **W6_18** - inferring selection [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/18.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/18.md) ]
+- **W7_19** - milestone project pt. A [ [project](https://github.com/for-giobbe/MP25/blob/main/practicals/project.md) ]
+- **W7_20** - milestone project pt. B [ [project](https://github.com/for-giobbe/MP25/blob/main/practicals/project.md) ]
 
 For any inquiry write to: giobbe.forni2@unibo.it
