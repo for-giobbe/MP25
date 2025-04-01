@@ -1,0 +1,211 @@
+species	sp	endosymbiont
+AM286415	Yersinia enterocolitica	N
+AORN	Arsenophonus Ornithomyia	E
+AP012551	e. of Plautia stali	E
+ASM1161710v1	Hafnia alvei	N
+ASM229144v1	Brenneria goodwinii	N
+BX248583	Blochmannia floridanus	E
+CP000263	Buchnera apidicola str. BCc	E
+CP001817	Buchnera apidicola str. Ct	E
+CP010907	Pantoea carbekii	E
+CP011787	Baumannia cicadellinicola	E
+CP012849	Riesia sp. GBBU	E
+CP017279	Enterobacter ludwigii	N
+CP021659	Fukatsuia symbiotica	E
+CP055276	Enterobacter mori	N
+GCA-000008885	Wigglesworthia glossinidia str. A	E
+GCA-000427805	Budvicia aquatica	N
+GCA-001242845	Westeberhardia cardiocondylae	E
+GCA-001457715	Providencia siddallii	E
+GCA-002855795	Baumannia str. Gra	E
+GCA-002933345	Pantoea edessiphila str. SoEO	E
+GCA-004342665	Samsonia erythrinae	N
+GCA-012689415	Symbiopectobacterium str. SyCt	E
+GCA-015762725	Symbiopectobacterium str. SyDa	E
+GCA-016086315	Cronobacter turicensis	N
+GCF-000008865	Escherichia coli	N
+GCF-000186485	Serratia symbiotica str. Tucson	E
+GCF-000247565	Wigglesworthia glossinidia str. B	E
+GCF-000258345	Hamiltonella defensa str. MED	E
+GCF-000284655	Regiella insecticola str. A	E
+GCF-000412335	Cedecea davisae	N
+GCF-000429565	Arsenophonus nasoniae	E
+GCF-000439895	Tatumella ptyseos	N
+GCF-000735425	Leminorella grimontii	N
+GCF-000757905	Arsenophonus e. of N. lugens	E
+GCF-000803315	Pectobacterium actinidiae	N
+GCF-001188485	Trabusiella odontotermitis	N
+GCF-001571285	Kluyvera cryocrescens	N
+GCF-001684335	Photorhabdus namnaonensis	N
+GCF-001858105	Citrobacter koseri	N
+GCF-001976145	Serratia oryzae	N
+GCF-002247485	Shigella sonnei	N
+GCF-002632465	Xenorhabdus budapestensis	N
+GCF-002632485	Xenorhabdus innexi	N
+GCF-002811195	Pantoea rodasii	N
+GCF-002858935	Pantoea endophytica	N
+GCF-002933315	Pantoea edessiphila str. SoEE	E
+GCF-003182475	Mangrovibacter plantisponsor	N
+GCF-003287735	Photorhabdus bodei	N
+GCF-003601925	Buttiauxella izardii	N
+GCF-003666245	Brenneria alni	N
+GCF-003846135	Erwinia psidii	N
+GCF-004137785	Pectobacterium zantedeschiae	N
+GCF-004168465	Siccibacter turicensis	N
+GCF-004308205	Obesumbacterium proteus	N
+GCF-004343195	Biostraticola tofi	N
+GCF-009372235	Dickeya oryzae	N
+GCF-009800925	Budvicia diplopodorum	N
+GCF-010119855	Photorhabdus kayaii	N
+GCF-011189495	Photorhabdus stackebrandtii	N
+GCF-011189505	Photorhabdus tasmaniensis	N
+GCF-011189575	Photorhabdus cinerea	N
+GCF-012026695	Erwinia dacicola	E
+GCF-012933545	Rouxiella aceris	N
+GCF-013234275	Buttiauxella agrestis	N
+GCF-013373955	Regiella insecticola str. B	E
+GCF-013403315	Pantoea brenneri	N
+GCF-014639435	Hafnia psychrotolerans	N
+GCF-014946725	Mixta mediterraneensis	N
+GCF-015762685	Symbiopectobacterium str. SyHaE	E
+GCF-016415625	Shimwellia pseudoproteus	N
+GCF-016804125	Klebsiella africana	N
+GCF-900107885	Lonsdalea quercina	N
+GCF-900112785	Phytobacter palmae	N
+GCF-900113945	Xenorhabdus mauleonii	N
+GCF-900115195	Xenorhabdus japonica	N
+GCF-900185945	Kosakonia oryzendophytica	N
+GCF-900343025	Arsenophonus e. of A. floccissimus	E
+GCF-900706815	Moellerella wisconsensis	N
+GCF-902158555	Klebsiella spallanzanii	N
+GCF-902158635	Klebsiella pasteurii	N
+GCF-902498915	Escherichia ruysiae	N
+GCF-903968575	Arsenophonus e. of A. mellifera	E
+LN854557	Sodalis glossinidius	E
+LN999831	Mikella endobia	E
+LN999832	e. of F. virgata	E
+LT897836	e. of H. halophilus	E
+NC-003197	Salmonella enterica	N
+NC-004337	Shigella flexneri	N
+NC-004545	Buchnera aphidicola str. Bp	E
+NC-007292	Blochmannia pennsylvanicus	E
+NC-010554	Proteus mirabilis	N
+NC-010694	Erwinia tasmaniensis	N
+NC-011834	Buchnera aphidicola str. Tuc7	E
+NC-012779	Edwardsiella ictaluri	N
+NC-012880	Dickeya paradisiaca	N
+NC-012912	Dickeya chrysanthemi	N
+NC-012962	Photorhabdus asymbiotica	N
+NC-013716	Citrobacter rodentium	N
+NC-013892	Xenorhabdus bovienii	N
+NC-013961	Erwinia amylovora	N
+NC-014109	Riesia pediculicola	E
+NC-014228	Xenorhabdus nematophila	N
+NC-014306	Erwinia billingiae	N
+NC-015735	Moranella endobia str. A	E
+NC-016632	Serratia symbiotica str. C. cedri	E
+NC-017047	Rahnella aquatilis	N
+NC-017554	Pantoea ananatis	N
+NC-017731	Providencia stuartii	N
+NC-017910	Shimwellia blattae	N
+NC-018419	e. of C. eucalypti	E
+NC-018420	e. of H. cubana	E
+NZ-AP010872	Ishikawaella capsulata	E
+NZ-AP014521	Tachikawaea gelatinosa	E
+NZ-AP019531	Serratia symbiotica str. one	E
+NZ-AP022665	Kluyvera ascorbata	N
+NZ-CP006568	Sodalis pierantonius	E
+NZ-CP006569	Sodalis praecaptivus	N
+NZ-CP007044	Chania multitudinisentens	N
+NZ-CP009253	Buchnera aphidicola str. A. glycines	E
+NZ-CP009610	Haemophilus influenzae	N
+NZ-CP009756	Enterobacter cloacae	N
+NZ-CP009973	Yersinia pestis	N
+NZ-CP010029	Yersinia entomophaga	N
+NZ-CP010048	Blochmannia e. of P. Hedomyrma	E
+NZ-CP010049	Blochmannia e. of C. Colobopsis	E
+NZ-CP011254	Serratia fonticola	N
+NZ-CP011299	Buchnera aphidicola str. S. chinensis	E
+NZ-CP011602	Phytobacter ursingii	N
+NZ-CP013920	Arsenophonus lipoptenae	E
+NZ-CP013940	Cronobacter malonaticus	N
+NZ-CP013990	Leclercia adecarboxylata	N
+NZ-CP014007	Kosakonia oryzae	N
+NZ-CP015113	Kosakonia radicincitans	N
+NZ-CP015749	Pectobacterium parmentieri	N
+NZ-CP017184	Enterobacter roggenkampii	N
+NZ-CP017610	Hamiltonella defensa	E
+NZ-CP017671	Providencia rettgeri	N
+NZ-CP019706	Pantoea alhagi	N
+NZ-CP020388	Pluralibacter gergoviae	N
+NZ-CP023529	Lelliottia amnigena	N
+NZ-CP023536	Providencia alcalifaciens	N
+NZ-CP023567	Erwinia pyrifoliae	N
+NZ-CP023706	Edwardsiellla tarda	N
+NZ-CP024768	Pantoea cypripedii	N
+NZ-CP027107	Cronobacter sakazakii	N
+NZ-CP028926	Pasteurella multocida	N
+NZ-CP029205	Buchnera aphidicola str. S. graminum	E
+NZ-CP031123	Providencia huaxiensis	N
+NZ-CP034035	Brenneria rubrifaciens	N
+NZ-CP034148	Pantoea agglomerans	N
+NZ-CP034752	Jinshanibacter zhutongyuii	N
+NZ-CP034938	Pectobacterium odoriferum	N
+NZ-CP035129	Kosakonia cowanii	N
+NZ-CP038155	Arsenophonus e. of A. craccivora	E
+NZ-CP038469	Citrobacter tructae	N
+NZ-CP038662	Serratia nematodiphila	N
+NZ-CP038853	Pantoea vagans	N
+NZ-CP040428	Jejubacter calystegiae	N
+NZ-CP042220	Dickeya poaceiphila	N
+NZ-CP042941	Atlantibacter hermannii	N
+NZ-CP045205	Citrobacter telavivensis	N
+NZ-CP045216	Pantoea dispersa	N
+NZ-CP045300	Kosakonia arachidis	N
+NZ-CP045845	Kluyvera intermedia	N
+NZ-CP045913	Serratia proteamaculans	N
+NZ-CP046202	e. of D. crassipes	E
+NZ-CP046204	e. of D. cinerea	E
+NZ-CP046206	e. of D. provostii	E
+NZ-CP046208	e. of D. clavipes	E
+NZ-CP046214	e. of D. versicolorea	E
+NZ-CP046216	e. of D. tomentosa	E
+NZ-CP046218	Macropleicola muticae	E
+NZ-CP046220	Macropleicola appendiculatae	E
+NZ-CP046222	e. of N. nigricornis	E
+NZ-CP046224	e. of P. sericea	E
+NZ-CP046228	e. of P. rustica	E
+NZ-CP046230	e. of P. consimilis	E
+NZ-CP046232	e. of P. braccata	E
+NZ-CP046533	Blochmannia e. of C. nipponica	E
+NZ-CP046534	Blochmannia e. of C. nipponensis	E
+NZ-CP048243	Ewingella americana	N
+NZ-CP048784	Serratia liquefaciens	N
+NZ-CP048796	Providencia vermicola	N
+NZ-CP049021	Enterobacter hormaechei	N
+NZ-CP049603	Rouxiella badensis	N
+NZ-CP050811	Yokenella regensburgei	N
+NZ-CP050855	Serratia symbiotica str. CWBI	E
+NZ-CP050969	Plesiomonas shigelloides	N
+NZ-CP051652	Pectobacterium carotovorum	N
+NZ-CP053416	Salmonella bongori	N
+NZ-CP054049	Yersinia kristensenii	N
+NZ-CP054254	Klebsiella variicola	N
+NZ-CP061511	Mixta calida	N
+NZ-CP063425	Kosakonia pseudosacchari	N
+NZ-CP065024	Rahnella inusitata	N
+NZ-CP065534	Lonsdalea populi	N
+NZ-CP069157	Morganella morganii	N
+NZ-CP072652	Serratia symbiotica str. B	E
+NZ-HG326223	Serratia marcescens	N
+NZ-LN999835	Moranella endobia	E
+NZ-LR025083	Serratia symbiotica str. SeC	E
+NZ-LR025108	Arsenophonus e. of A. dispersus	E
+NZ-LR134201	Cedecea lapagei	N
+NZ-LR134531	Pragia fontium	N
+NZ-LS483470	Leminorella richardii	N
+NZ-LT594522	e. of T. mannipara	E
+NZ-LT615367	Dickeya aquatica	N
+NZ-LT635893	Buchnera aphidicola str. C. pseudotaxifoliae	E
+NZ-LT883155	Serratia grimesii	N
+NC-021057	Moranella endobia str. B	E
