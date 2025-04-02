@@ -1,0 +1,2 @@
+S_constricta,C_virginica,P_fucata,B_glabrata,L_gigantea,A_granulata,O_bimaculoides -545.449
+B_glabrata,L_gigantea -424.426

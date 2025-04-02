@@ -1,0 +1,14 @@
+#NEXUS
+
+Begin sets;
+	charset p1_N0 = 1-1532;
+	charset p2_N0 = 1533-1771;
+	charset p3_N0 = 1772-3456;
+	charset p4_N0 = 3457-3876;
+	charset p5_N0 = 3877-4845;
+	charset p6_N0 = 4846-9727;
+	charset p7_N0 = 9728-10328;
+	charset p8_N0 = 10329-11046;
+	charset p9_N0 = 11047-11594;
+	charset p10_N0 = 11595-12097;
+End;
