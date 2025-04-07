@@ -1,0 +1,14 @@
+seqfile = Rhabdomeric1.fasta
+outfile = Rhabdomeric1.codeml.m0.out
+treefile = Rhabdomeric1.fasta.treefile
+omega =
+noisy = 0
+verbose = 0
+runmode = 0
+seqtype = 1
+CodonFreq = 3
+model = 0
+NSsites = 0
+icode = 1
+getSE = 0
+fix_blength = 2
