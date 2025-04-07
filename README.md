@@ -34,6 +34,6 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 
 Recordings: [here](https://drive.google.com/drive/folders/1btQMWVTlyd2DKsGb4LDxM0O_fD2l3VKt?usp=sharing).
 
-Exam sample: [here]()
+Exam sample: [here](https://github.com/for-giobbe/MP25/blob/main/exam_sample.md).
 
 For any inquiry write to: giobbe.forni2@unibo.it
