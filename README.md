@@ -36,4 +36,6 @@ Recordings: [here](https://drive.google.com/drive/folders/1btQMWVTlyd2DKsGb4LDxM
 
 Exam sample: [here](https://github.com/for-giobbe/MP25/blob/main/exam_sample.md).
 
+Single slides pack: [WIP]().
+
 For any inquiry write to: giobbe.forni2@unibo.it
