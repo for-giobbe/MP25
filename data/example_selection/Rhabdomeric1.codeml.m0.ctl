@@ -1,6 +1,6 @@
-seqfile = Rhabdomeric1.fasta
+seqfile = Rhabdomeric1.aln.best.fas
 outfile = Rhabdomeric1.codeml.m0.out
-treefile = Rhabdomeric1.fasta.treefile
+treefile = Rhabdomeric1.aln.best.fas.treefile
 omega =
 noisy = 0
 verbose = 0
