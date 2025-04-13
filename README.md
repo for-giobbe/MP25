@@ -29,8 +29,8 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W6_16** - inferring selection [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/16.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/16.md) ]
 - **W6_17** - modelling trait evolution on phylogenies: discrete traits [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/17.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/17.md) ]
 - **W6_18** - modelling trait evolution on phylogenies: continuous traits [ [slides](https://github.com/for-giobbe/MP25/blob/main/slides/18.pdf) + [practicals](https://github.com/for-giobbe/MP25/blob/main/practicals/18.md) ]
-- **W7_19** - milestone project pt. A [ [project](https://github.com/for-giobbe/MP25/blob/main/practicals/final_assignment.md) ]
-- **W7_20** - milestone project pt. B [ [project](https://github.com/for-giobbe/MP25/blob/main/practicals/final_assignment.md) ]
+- **W7_19** - milestone project pt. A [ [project](https://github.com/for-giobbe/MP25/blob/main/practicals/milestone_project.md) ]
+- **W7_20** - milestone project pt. B [ [project](https://github.com/for-giobbe/MP25/blob/main/practicals/milestone_project.md) ]
 
 Other useful stuff:
 - Recordings: [**here**](https://drive.google.com/drive/folders/1btQMWVTlyd2DKsGb4LDxM0O_fD2l3VKt?usp=sharing).
