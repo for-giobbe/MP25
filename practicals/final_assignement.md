@@ -10,7 +10,7 @@
   * [*Lottia gigantea*](https://upload.wikimedia.org/wikipedia/commons/8/8e/Lottia_gigantea.jpg) (Gasteropoda)
   * [*Octopus bimaculoides*](https://www.flickr.com/photos/39365853@N07/7532895572/sizes/k/) (Cephalopoda)
   * [*Sinivicula constricta*](https://www.cabidigitallibrary.org/cms/10.1079/cabicompendium.63482/asset/b2492559-2c1b-4e14-bb98-06f1719d8dca/assets/graphic/63482_02.jpg) (Bivalvia)
-  * [*Pinctada fucata*](https://cdn.britannica.com/49/9749-050-33C30CE5/European-flat-oyster.jpg] (Bivalvia)
+  * [*Pinctada fucata*](https://cdn.britannica.com/49/9749-050-33C30CE5/European-flat-oyster.jpg) (Bivalvia)
   * [*Helobdella robusta*](https://upload.wikimedia.org/wikipedia/commons/9/98/Europ%C3%A4ischer-Platt-Egel_cropped.jpg) (Anellidae)
 
 
