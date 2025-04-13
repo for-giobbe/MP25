@@ -1,6 +1,8 @@
-### FInal Asignement
+### FInal Assignment
 
-... you are a phylogeneticist now .... in these practical we are going to use the proteoms from 7 Mollusk species taken from public database plus one Annelidae as outgroup:
+... you are a phylogeneticist now! 
+
+.... in these practical we are going to use the proteoms from 7 Mollusk species taken from public database plus one Annelidae as outgroup:
 
   - [*Biomphalaria glabrata*](https://imagens.ebc.com.br/PLQ4dlImF82bd1vjscHc2EjtVKo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/esquistossomose_artigo_fiomg_interno_0.jpg?itok=Y-6YUgCu) (Gasteropoda)
   - [*Acanthopleura granulata*](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Acanthopleura_granulata_%28West_Indian_fuzzy_chitons%29_%28San_Salvador_Island%2C_Bahamas%29_1_%2816131898481%29.jpg/1600px-Acanthopleura_granulata_%28West_Indian_fuzzy_chitons%29_%28San_Salvador_Island%2C_Bahamas%29_1_%2816131898481%29.jpg?20150503211646) (Poliplacophora)
