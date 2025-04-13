@@ -33,8 +33,8 @@ Teaching material for the "Molecular Phylogenetics" classes of the MSc in Bioinf
 - **W7_20** - milestone project pt. B [ [project](https://github.com/for-giobbe/MP25/blob/main/practicals/project.md) ]
 
 Other useful stuff:
-- Recordings: [here](https://drive.google.com/drive/folders/1btQMWVTlyd2DKsGb4LDxM0O_fD2l3VKt?usp=sharing).
-- Exam sample: [here](https://github.com/for-giobbe/MP25/blob/main/exam_sample.md).
-- Single slides pack: [WIP]().
+- Recordings: [**here**](https://drive.google.com/drive/folders/1btQMWVTlyd2DKsGb4LDxM0O_fD2l3VKt?usp=sharing).
+- Exam sample: [**here**](https://github.com/for-giobbe/MP25/blob/main/exam_sample.md).
+- Single slides pack: [**here**](https://github.com/for-giobbe/MP25/blob/main/slides/MP25.pdf).
 
 For any inquiry write to: giobbe.forni2@unibo.it
