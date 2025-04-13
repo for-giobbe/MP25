@@ -1,6 +1,6 @@
-### FInal Assignment
+### milestone project
 
-... you are a phylogeneticist now! 
+**... you are a phylogeneticist now!**
 
 .... in these practical we are going to use the proteoms from 7 Mollusk species taken from public database plus one Annelidae as outgroup:
 
